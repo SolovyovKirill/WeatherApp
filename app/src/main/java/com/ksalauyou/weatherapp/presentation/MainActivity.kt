@@ -1,9 +1,9 @@
-package com.ksalauyou.weatherapp
+package com.ksalauyou.weatherapp.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import com.ksalauyou.weatherapp.ui.theme.WeatherAppTheme
+import com.ksalauyou.weatherapp.presentation.ui.theme.WeatherAppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
