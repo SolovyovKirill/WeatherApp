@@ -1,6 +1,5 @@
 package com.ksalauyou.weatherapp.domain.repository
 
-import com.ksalauyou.weatherapp.domain.entity.City
 import com.ksalauyou.weatherapp.domain.entity.Forecast
 import com.ksalauyou.weatherapp.domain.entity.Weather
 
