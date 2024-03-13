@@ -9,7 +9,7 @@ import com.ksalauyou.weatherapp.presentation.details.DetailsStore.Intent
 import com.ksalauyou.weatherapp.presentation.details.DetailsStore.Label
 import com.ksalauyou.weatherapp.presentation.details.DetailsStore.State
 
-internal interface DetailsStore : Store<Intent, State, Label> {
+interface DetailsStore : Store<Intent, State, Label> {
 
     sealed interface Intent {
     }
@@ -20,7 +20,7 @@ internal interface DetailsStore : Store<Intent, State, Label> {
     }
 }
 
-internal class DetailsStoreFactory(
+class DetailsStoreFactory(
     private val storeFactory: StoreFactory
 ) {
 
